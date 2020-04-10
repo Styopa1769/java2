@@ -17,7 +17,7 @@ public class LoginUI extends UI {
 
             //залогиньте пользователя
         });
-        
+
         setContent(loginForm);
     }
 }
