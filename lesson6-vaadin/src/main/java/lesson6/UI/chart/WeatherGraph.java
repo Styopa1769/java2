@@ -17,6 +17,7 @@ public class WeatherGraph extends UI {
     @Override
     protected void init(VaadinRequest vaadinRequest) {
         VerticalLayout verticalLayout = new VerticalLayout();
+
         BasicLine basicLine = new BasicLine();
         basicLine.setMeasurements(repo.findAllByOrderByDateTime());
 

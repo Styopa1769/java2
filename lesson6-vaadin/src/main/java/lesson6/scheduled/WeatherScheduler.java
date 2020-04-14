@@ -15,7 +15,7 @@ public class WeatherScheduler {
     @Autowired
     WeatherMeasurementRepository repo;
 
-    @Scheduled(fixedDelay = 60000)
+    @Scheduled(cron = "0 * * * * *")
     public void getWeather() throws IOException {
         String key = "de85a2f93f3b5233586d28b2077f0319";
         String moscowId = "524901";
