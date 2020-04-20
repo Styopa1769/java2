@@ -1,6 +1,6 @@
-package lesson6.Repositories;
+package lesson7.Repositories;
 
-import lesson6.Dto.UserDto;
+import lesson7.Dto.UserDto;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
