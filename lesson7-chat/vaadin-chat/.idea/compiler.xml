@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lesson6-vaadin" />
+        <module name="vaadin-chat" />
+        <module name="lesson5-vaadin-intro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lesson5-vaadin-intro" target="1.8" />
+      <module name="lesson6-vaadin" target="1.8" />
+      <module name="vaadin-chat" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lesson5-vaadin-intro" options="-parameters" />
+      <module name="lesson6-vaadin" options="-parameters" />
+      <module name="vaadin-chat" options="-parameters" />
+    </option>
+  </component>
+</project>
