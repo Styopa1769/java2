@@ -18,7 +18,9 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
-        <datasource-mapping />
+        <datasource-mapping>
+          <factory-entry name="entityManagerFactory" value="2818546e-ca65-4fc5-8f70-effca4b7ba10" />
+        </datasource-mapping>
         <naming-strategy-map />
       </configuration>
     </facet>
@@ -172,6 +174,8 @@
     <orderEntry type="library" name="Maven: com.vaadin:vaadin-shared:8.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.jsoup:jsoup:1.11.2" level="project" />
     <orderEntry type="library" name="Maven: com.vaadin.external:gentyref:1.2.0.vaadin1" level="project" />
-    <orderEntry type="library" name="Maven: org.vaadin.addons:chatbox:0.7.4" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin:vaadin-push:8.7.0" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin.external.atmosphere:atmosphere-runtime:2.4.30.vaadin1" level="project" />
+    <orderEntry type="library" name="Maven: com.vaadin.external.slf4j:vaadin-slf4j-jdk14:1.6.1" level="project" />
   </component>
 </module>
